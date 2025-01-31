@@ -14,7 +14,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         // Define your website link
-        String websiteLink = "https://www.instagram.com/a.e.s.g.chine/#";
+        String websiteLink = "https://agencemedinchina.com/";
 
         // Generate QR code
         ByteArrayOutputStream out = QRCode.from(websiteLink).to(ImageType.PNG).stream();
